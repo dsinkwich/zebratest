@@ -6,8 +6,9 @@
   "author": "Dessi Sinkwich",
   "license": "MIT",
   "scripts": {
+    "coverage": "open ./coverage/lcov-report/index.html",
     "start": "node ./src/server.js",
-    "test": "jest"
+    "test": "jest --collectCoverage=true"
   },
   "dependencies": {
     "express": "^4.17.1",
